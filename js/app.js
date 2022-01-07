@@ -13,7 +13,7 @@ function createPixels(number) {
     }
     $('.app-screen').append(pixels);
 };
-
+ 
 
 function colorChoiceAndDraw() {
     let buttons =  $('.app-tools').children().not('.reset').not('.export');
