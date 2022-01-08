@@ -52,7 +52,7 @@ function colorChoiceAndDraw() {
         // on utilise donc la methode split pour récuperer les différents mots que l'attribut classe contient,
         // sous forme d'un tableau
 
-        var color = $(this).attr("class").split(" ");
+        let color = $(this).attr("class").split(" ");
 
         // au clic sur un pixel, on lui ajoute à sa classe le deuxième mot de la classe du bouton couleur choisi, c'est à dire
         // le nom de la couleur
